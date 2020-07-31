@@ -1,0 +1,112 @@
+body {
+    padding: 0px 0px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+ul {
+    margin-left: -20px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#regular {
+    font-weight: 400;
+}
+
+#heavy-text {
+    font-weight: 700;
+}
+
+#light-text {
+    font-weight: 300;
+}
+
+#wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info-box {
+    margin-top: 15%;
+    position: absolte;
+    margin-left: 25%;
+    overflow: hidden;
+    float: left;
+    width: auto;
+
+}
+
+.info-headers {
+    float: left;
+}
+
+.logo {
+    padding: 20px 0px 0px 20px;
+    float: left;
+}
+
+
+
+
+.sidebar {
+    float: right;
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 30%;
+}
+
+
+
+/* Container for skill bars */
+.skills-container {
+    width: 80%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: 20px;
+    -webkit-box-shadow: 20px 19px 32px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 19px 32px -21px rgba(0,0,0,0.75);
+    box-shadow: 20px 19px 32px -21px rgba(0,0,0,0.75);
+  }
+
+  .skills {
+    text-align: left; /* Right-align text */
+    height: 10px;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 5px;
+  }
+
+  .c_cpp {
+    width: 70%;
+    background-color: #214c55;
+    border-radius: 8px;
+}
+
+.python {
+    width: 60%;
+    background-color: #214c55;
+    border-radius: 8px;
+
+}
+
+.java {
+    width: 45%;
+    background-color: #214c55;
+    border-radius: 8px;
+}
+
+
+
