@@ -4,87 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0">
     <meta name="description" content="Samuel Kunst's homepage">
-    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="css.css">
     <title> Samuel Kunst</title>
-    <style>
-body{margin:30px auto;max-width:75%;line-height:1.8;background:#f2f2f2;color:#444;font-family:arial}.contact-links img{height:25px}.links th{padding:0 8px 0 8px}.splash-img{margin-bottom:20px}.clickable,a{cursor:pointer;color:#444;text-decoration:none}.clickable:hover,a:hover{color:#666}.contact-links th{padding:0 8px 0 8px}.about-wrapper{display:none}.resume-wrapper{display:none}
-    </style>
 </head>
 <body>
     <center>
-        <h2>samuel kunst</h2>
-        <span class="clickable" onclick="loadIndex();"> 
-        <img class="splash-img" src="media/stencil-alt.svg"> 
-        </span>
+        <div class="splash-img"> 
+            <img src="media/stencil-alt.svg"> 
+        </div>
         <div class="links">
-            <table style="border: none">
-                <th>
-                    <span class="clickable" onclick="loadAbout();">
-                        <h4 id="abt">about</h4>
-                    </span>
-                </th>
-                <th>
-                    <span class="clickable" onclick="loadResume();">
-                        <h4 id="res">resume</h4>
-                    </span>
-            </table>
-            </th>
+            <a href="https://github.com/toalaah" target="_blank"><h5> > github </h5></a>
+            <a href="https://www.linkedin.com/in/samuel-kunst" target="_blank"><h5> > linkedin </h5></a>
+            <a href="https://twitter.com/toalaah" target="_blank"><h5> > twitter </h5></a>
+            <a href="mailto:samuel.kunst@gmail.com"><h5> > contact </h5></a>
         </div>
-    </center>
-    <div class="about-wrapper">
-        <div class="content-about">i am currently stuying it-systems engineering at the hasso-plattner
-            institute in
-            potsdam. other than obviously being fond of technology and coding i also enjoy design and
-            especially
-            video-editing / production.
+        <div class="source">
+            <a href="https://github.com/toalaah/personal-site"><p>Github Source</p></a>
         </div>
-    </div>
-    <div class="resume-wrapper">
-        should you want a more detailed resume you can either <b><a href="mailto:samuel.kunst@gmail.com">contact
-        me here</a></b> or use any of the links below
-        <div class="content-resume">
-            <h4>experience</h4>
-            <ul>
-                <li>08.2019-10.2019 — philip morris international, digital experience and design internship, munich</li>
-                <li>03.2017-12.2017 — schlosscafé im palmenhaus, waiter / general service, munich</li>
-                <li>07.2017-08.2017 — elgato systems, analysis of gaming trends and online presence in
-                    livestreaming
-                    services, munich
-		</li>
-                <li>06.2017-07.2017 — appasionata park munich, stage lighting and sound design through
-                    digital
-                    simulations and sequencing, munich </li>
-            </ul>
-            <h4>education</h4>
-            <ul>
-                <li>2019-current — hasso plattner institute, university of potsdam it-systems engineering</li>
-                <li>2014-2019 — bavarian international school, haimhausen, ib diploma</li>
-                <li>2012-2014 — shore country day school, beverly, ma/usa</li>
-                <li>2007-2012 — bavarian international school, haimhausen</li>
-                <li>2003-2006 — kindergarten, swampscott, ma/usa</li>
-            </ul>
-        </div>
-    </div>
-    <center>
-        <div class="contact-links">
-            <h4> contact</h4>
-            <table style="border: none">
-                <th>
-                    <div class="contact-links github"><a href="https://github.com/toalaah" target="_blank"><img
-                        src="media/github-icon.png"></a></div>
-                </th>
-                <th>
-                    <div class="contact-links email"><a href="mailto:samuel.kunst@gmail.com"><img
-                        src="media/mail-icon.png"></a></div>
-                </th>
-		<th>
-			<div class="contact-links linkedin"><a href="https://www.linkedin.com/in/samuel-kunst" target="_blank"><img src="media/linkedin-icon.png"></a></div>
-		</th>
-            </table>
-        </div>
+
     </center>
 </body>
-<script>
-function loadAbout(){var e=document.getElementsByClassName("about-wrapper"),t=document.getElementsByClassName("resume-wrapper");e[0].style.display="block",t[0].style.display="none",setColor(0)}function loadResume(){var e=document.getElementsByClassName("about-wrapper"),t=document.getElementsByClassName("resume-wrapper");e[0].style.display="none",t[0].style.display="block",setColor(1)}function loadIndex(){var e=document.getElementsByClassName("about-wrapper"),t=document.getElementsByClassName("resume-wrapper");e[0].style.display="none",t[0].style.display="none",setColor(-1)}function setColor(e){var t=document.getElementById("abt"),l=document.getElementById("res");t.style.color="#444444",l.style.color="#444444",0==e?t.style.color="#666666":1==e&&(l.styl.color="#666666")}
-</script>
 </html>
